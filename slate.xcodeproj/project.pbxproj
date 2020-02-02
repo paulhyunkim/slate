@@ -14,6 +14,15 @@
 		69E23F9123E76FD30041F2DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E23F9023E76FD30041F2DC /* Assets.xcassets */; };
 		69E23F9423E76FD30041F2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E23F9223E76FD30041F2DC /* LaunchScreen.storyboard */; };
 		69E23F9F23E76FD30041F2DC /* slateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F9E23E76FD30041F2DC /* slateTests.swift */; };
+		69E23FAA23E76FF10041F2DC /* SlateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FA923E76FF10041F2DC /* SlateNode.swift */; };
+		69E23FAC23E770050041F2DC /* SlateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FAB23E770050041F2DC /* SlateText.swift */; };
+		69E23FAE23E7701D0041F2DC /* SlateElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FAD23E7701D0041F2DC /* SlateElement.swift */; };
+		69E23FB023E7702F0041F2DC /* SlateEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FAF23E7702F0041F2DC /* SlateEditor.swift */; };
+		69E23FB223E770400041F2DC /* SlateDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB123E770400041F2DC /* SlateDecoder.swift */; };
+		69E23FB423E770590041F2DC /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB323E770590041F2DC /* TestData.swift */; };
+		69E23FB623E7706B0041F2DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB523E7706B0041F2DC /* Extensions.swift */; };
+		69E23FB823E78F580041F2DC /* SlateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB723E78F580041F2DC /* SlateProtocols.swift */; };
+		69E23FBA23E793780041F2DC /* SlateEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB923E793780041F2DC /* SlateEncoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,15 @@
 		69E23F9A23E76FD30041F2DC /* slateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E23F9E23E76FD30041F2DC /* slateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slateTests.swift; sourceTree = "<group>"; };
 		69E23FA023E76FD30041F2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E23FA923E76FF10041F2DC /* SlateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateNode.swift; sourceTree = "<group>"; };
+		69E23FAB23E770050041F2DC /* SlateText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateText.swift; sourceTree = "<group>"; };
+		69E23FAD23E7701D0041F2DC /* SlateElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateElement.swift; sourceTree = "<group>"; };
+		69E23FAF23E7702F0041F2DC /* SlateEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateEditor.swift; sourceTree = "<group>"; };
+		69E23FB123E770400041F2DC /* SlateDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateDecoder.swift; sourceTree = "<group>"; };
+		69E23FB323E770590041F2DC /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		69E23FB523E7706B0041F2DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		69E23FB723E78F580041F2DC /* SlateProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateProtocols.swift; sourceTree = "<group>"; };
+		69E23FB923E793780041F2DC /* SlateEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateEncoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,15 @@
 				69E23F9023E76FD30041F2DC /* Assets.xcassets */,
 				69E23F9223E76FD30041F2DC /* LaunchScreen.storyboard */,
 				69E23F9523E76FD30041F2DC /* Info.plist */,
+				69E23FA923E76FF10041F2DC /* SlateNode.swift */,
+				69E23FAB23E770050041F2DC /* SlateText.swift */,
+				69E23FAD23E7701D0041F2DC /* SlateElement.swift */,
+				69E23FAF23E7702F0041F2DC /* SlateEditor.swift */,
+				69E23FB123E770400041F2DC /* SlateDecoder.swift */,
+				69E23FB923E793780041F2DC /* SlateEncoder.swift */,
+				69E23FB323E770590041F2DC /* TestData.swift */,
+				69E23FB523E7706B0041F2DC /* Extensions.swift */,
+				69E23FB723E78F580041F2DC /* SlateProtocols.swift */,
 			);
 			path = slate;
 			sourceTree = "<group>";
@@ -200,9 +227,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E23FB423E770590041F2DC /* TestData.swift in Sources */,
+				69E23FB823E78F580041F2DC /* SlateProtocols.swift in Sources */,
+				69E23FBA23E793780041F2DC /* SlateEncoder.swift in Sources */,
+				69E23FAE23E7701D0041F2DC /* SlateElement.swift in Sources */,
+				69E23FB023E7702F0041F2DC /* SlateEditor.swift in Sources */,
 				69E23F8C23E76FD10041F2DC /* ViewController.swift in Sources */,
+				69E23FAA23E76FF10041F2DC /* SlateNode.swift in Sources */,
+				69E23FB623E7706B0041F2DC /* Extensions.swift in Sources */,
+				69E23FB223E770400041F2DC /* SlateDecoder.swift in Sources */,
 				69E23F8823E76FD10041F2DC /* AppDelegate.swift in Sources */,
 				69E23F8A23E76FD10041F2DC /* SceneDelegate.swift in Sources */,
+				69E23FAC23E770050041F2DC /* SlateText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
