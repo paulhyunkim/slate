@@ -36,7 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		69E23F8423E76FD10041F2DC /* slate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8009D923E86BB300F1D352 /* slate copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "slate copy-Info.plist"; path = "/Users/paul.kim/slate/slate copy-Info.plist"; sourceTree = "<absolute>"; };
+		69E23F8423E76FD10041F2DC /* Slate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E23F8723E76FD10041F2DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69E23F8923E76FD10041F2DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		69E23F8B23E76FD10041F2DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +45,7 @@
 		69E23F9023E76FD30041F2DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69E23F9323E76FD30041F2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69E23F9523E76FD30041F2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69E23F9A23E76FD30041F2DC /* slateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E23F9A23E76FD30041F2DC /* SlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E23F9E23E76FD30041F2DC /* slateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slateTests.swift; sourceTree = "<group>"; };
 		69E23FA023E76FD30041F2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E23FA923E76FF10041F2DC /* SlateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateNode.swift; sourceTree = "<group>"; };
@@ -82,14 +83,15 @@
 				69E23F8623E76FD10041F2DC /* slate */,
 				69E23F9D23E76FD30041F2DC /* slateTests */,
 				69E23F8523E76FD10041F2DC /* Products */,
+				5D8009D923E86BB300F1D352 /* slate copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		69E23F8523E76FD10041F2DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69E23F8423E76FD10041F2DC /* slate.app */,
-				69E23F9A23E76FD30041F2DC /* slateTests.xctest */,
+				69E23F8423E76FD10041F2DC /* Slate.app */,
+				69E23F9A23E76FD30041F2DC /* SlateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69E23F8323E76FD00041F2DC /* slate */ = {
+		69E23F8323E76FD00041F2DC /* Slate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69E23FA323E76FD30041F2DC /* Build configuration list for PBXNativeTarget "slate" */;
+			buildConfigurationList = 69E23FA323E76FD30041F2DC /* Build configuration list for PBXNativeTarget "Slate" */;
 			buildPhases = (
 				69E23F8023E76FD00041F2DC /* Sources */,
 				69E23F8123E76FD00041F2DC /* Frameworks */,
@@ -141,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = slate;
+			name = Slate;
 			productName = slate;
-			productReference = 69E23F8423E76FD10041F2DC /* slate.app */;
+			productReference = 69E23F8423E76FD10041F2DC /* Slate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69E23F9923E76FD30041F2DC /* slateTests */ = {
+		69E23F9923E76FD30041F2DC /* SlateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69E23FA623E76FD30041F2DC /* Build configuration list for PBXNativeTarget "slateTests" */;
+			buildConfigurationList = 69E23FA623E76FD30041F2DC /* Build configuration list for PBXNativeTarget "SlateTests" */;
 			buildPhases = (
 				69E23F9623E76FD30041F2DC /* Sources */,
 				69E23F9723E76FD30041F2DC /* Frameworks */,
@@ -159,9 +161,9 @@
 			dependencies = (
 				69E23F9C23E76FD30041F2DC /* PBXTargetDependency */,
 			);
-			name = slateTests;
+			name = SlateTests;
 			productName = slateTests;
-			productReference = 69E23F9A23E76FD30041F2DC /* slateTests.xctest */;
+			productReference = 69E23F9A23E76FD30041F2DC /* SlateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69E23F7F23E76FD00041F2DC /* Build configuration list for PBXProject "slate" */;
+			buildConfigurationList = 69E23F7F23E76FD00041F2DC /* Build configuration list for PBXProject "Slate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -196,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69E23F8323E76FD00041F2DC /* slate */,
-				69E23F9923E76FD30041F2DC /* slateTests */,
+				69E23F8323E76FD00041F2DC /* Slate */,
+				69E23F9923E76FD30041F2DC /* SlateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +257,7 @@
 /* Begin PBXTargetDependency section */
 		69E23F9C23E76FD30041F2DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69E23F8323E76FD00041F2DC /* slate */;
+			target = 69E23F8323E76FD00041F2DC /* Slate */;
 			targetProxy = 69E23F9B23E76FD30041F2DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.slate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Slate;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,7 +424,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.slate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Slate;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69E23F7F23E76FD00041F2DC /* Build configuration list for PBXProject "slate" */ = {
+		69E23F7F23E76FD00041F2DC /* Build configuration list for PBXProject "Slate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69E23FA123E76FD30041F2DC /* Debug */,
@@ -482,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69E23FA323E76FD30041F2DC /* Build configuration list for PBXNativeTarget "slate" */ = {
+		69E23FA323E76FD30041F2DC /* Build configuration list for PBXNativeTarget "Slate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69E23FA423E76FD30041F2DC /* Debug */,
@@ -491,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69E23FA623E76FD30041F2DC /* Build configuration list for PBXNativeTarget "slateTests" */ = {
+		69E23FA623E76FD30041F2DC /* Build configuration list for PBXNativeTarget "SlateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69E23FA723E76FD30041F2DC /* Debug */,
