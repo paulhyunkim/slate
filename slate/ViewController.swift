@@ -15,16 +15,12 @@ class ViewController: UIViewController {
         
         let postData = PostContent.testData
 
-        let slateNodes: [SlateNode]
-        do {
-            slateNodes = try SlateDecoder.nodes(with: postData)
-            print(slateNodes.count)
-            let data = try JSONEncoder().encode(slateNodes)
-            let string = String(data: data, encoding: .utf8)?.replacingOccurrences(of: "\\/", with: "/")
-            print(string == postData)
-        } catch {
-            print(error)
-        }
+        let slateNodes = try? SlateDecoder.nodes(with: postData)
+        print(slateNodes!.count)
+        
+        let slateNodesString = try? SlateEncoder.string(with: slateNodes!)
+        print(slateNodesString!)
+        print(slateNodesString == postData)
 
         let hello = SlateNodeFactory.textNode(for: "Hello", styles: [.bold(true)])
         let world = SlateNodeFactory.textNode(for: "world", styles: [.underline(true)])

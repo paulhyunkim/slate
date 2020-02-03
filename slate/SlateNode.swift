@@ -9,7 +9,7 @@
 import Foundation
 
 public enum SlateNode {
-
+    
 // `Element` nodes (container nodes which have semantic meaning in your domain)
     case paragraph(SlateParagraphElement)
     case title(SlateTitleElement)
