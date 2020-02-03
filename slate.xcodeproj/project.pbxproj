@@ -13,7 +13,7 @@
 		69E23F8F23E76FD10041F2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E23F8D23E76FD10041F2DC /* Main.storyboard */; };
 		69E23F9123E76FD30041F2DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E23F9023E76FD30041F2DC /* Assets.xcassets */; };
 		69E23F9423E76FD30041F2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E23F9223E76FD30041F2DC /* LaunchScreen.storyboard */; };
-		69E23F9F23E76FD30041F2DC /* slateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F9E23E76FD30041F2DC /* slateTests.swift */; };
+		69E23F9F23E76FD30041F2DC /* SlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F9E23E76FD30041F2DC /* SlateTests.swift */; };
 		69E23FAA23E76FF10041F2DC /* SlateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FA923E76FF10041F2DC /* SlateNode.swift */; };
 		69E23FAC23E770050041F2DC /* SlateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FAB23E770050041F2DC /* SlateText.swift */; };
 		69E23FAE23E7701D0041F2DC /* SlateElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FAD23E7701D0041F2DC /* SlateElement.swift */; };
@@ -46,7 +46,7 @@
 		69E23F9323E76FD30041F2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69E23F9523E76FD30041F2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E23F9A23E76FD30041F2DC /* SlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E23F9E23E76FD30041F2DC /* slateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slateTests.swift; sourceTree = "<group>"; };
+		69E23F9E23E76FD30041F2DC /* SlateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateTests.swift; sourceTree = "<group>"; };
 		69E23FA023E76FD30041F2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E23FA923E76FF10041F2DC /* SlateNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateNode.swift; sourceTree = "<group>"; };
 		69E23FAB23E770050041F2DC /* SlateText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateText.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		69E23F7B23E76FD00041F2DC = {
 			isa = PBXGroup;
 			children = (
-				69E23F8623E76FD10041F2DC /* slate */,
-				69E23F9D23E76FD30041F2DC /* slateTests */,
+				69E23F8623E76FD10041F2DC /* Slate */,
+				69E23F9D23E76FD30041F2DC /* SlateTests */,
 				69E23F8523E76FD10041F2DC /* Products */,
 				5D8009D923E86BB300F1D352 /* slate copy-Info.plist */,
 			);
@@ -96,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69E23F8623E76FD10041F2DC /* slate */ = {
+		69E23F8623E76FD10041F2DC /* Slate */ = {
 			isa = PBXGroup;
 			children = (
 				69E23F8723E76FD10041F2DC /* AppDelegate.swift */,
@@ -116,16 +116,16 @@
 				69E23FB523E7706B0041F2DC /* Extensions.swift */,
 				69E23FB723E78F580041F2DC /* SlateProtocols.swift */,
 			);
-			path = slate;
+			path = Slate;
 			sourceTree = "<group>";
 		};
-		69E23F9D23E76FD30041F2DC /* slateTests */ = {
+		69E23F9D23E76FD30041F2DC /* SlateTests */ = {
 			isa = PBXGroup;
 			children = (
-				69E23F9E23E76FD30041F2DC /* slateTests.swift */,
+				69E23F9E23E76FD30041F2DC /* SlateTests.swift */,
 				69E23FA023E76FD30041F2DC /* Info.plist */,
 			);
-			path = slateTests;
+			path = SlateTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E23F9F23E76FD30041F2DC /* slateTests.swift in Sources */,
+				69E23F9F23E76FD30041F2DC /* SlateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
