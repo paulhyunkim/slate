@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D9A2BB323EA79DE00EAE062 /* SlateNodeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A2BB223EA79DE00EAE062 /* SlateNodeFactory.swift */; };
 		69E23F8823E76FD10041F2DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F8723E76FD10041F2DC /* AppDelegate.swift */; };
 		69E23F8A23E76FD10041F2DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F8923E76FD10041F2DC /* SceneDelegate.swift */; };
 		69E23F8C23E76FD10041F2DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F8B23E76FD10041F2DC /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		69E23FB623E7706B0041F2DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB523E7706B0041F2DC /* Extensions.swift */; };
 		69E23FB823E78F580041F2DC /* SlateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB723E78F580041F2DC /* SlateProtocols.swift */; };
 		69E23FBA23E793780041F2DC /* SlateEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23FB923E793780041F2DC /* SlateEncoder.swift */; };
+		A79AB9861C55FA2B2FDEACD0 /* Pods_Slate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F054897822950F79AC5C9A1 /* Pods_Slate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F054897822950F79AC5C9A1 /* Pods_Slate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5633027CA63936D7763366C6 /* Pods-Slate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slate.debug.xcconfig"; path = "Target Support Files/Pods-Slate/Pods-Slate.debug.xcconfig"; sourceTree = "<group>"; };
 		5D8009D923E86BB300F1D352 /* slate copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "slate copy-Info.plist"; path = "/Users/paul.kim/slate/slate copy-Info.plist"; sourceTree = "<absolute>"; };
+		5D9A2BB223EA79DE00EAE062 /* SlateNodeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateNodeFactory.swift; sourceTree = "<group>"; };
 		69E23F8423E76FD10041F2DC /* Slate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E23F8723E76FD10041F2DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69E23F8923E76FD10041F2DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		69E23FB523E7706B0041F2DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		69E23FB723E78F580041F2DC /* SlateProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateProtocols.swift; sourceTree = "<group>"; };
 		69E23FB923E793780041F2DC /* SlateEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlateEncoder.swift; sourceTree = "<group>"; };
+		933B2C6AD538534DE0AFCE6A /* Pods-Slate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slate.release.xcconfig"; path = "Target Support Files/Pods-Slate/Pods-Slate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79AB9861C55FA2B2FDEACD0 /* Pods_Slate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C8C76D5861CAF65547D49A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F054897822950F79AC5C9A1 /* Pods_Slate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		69E23F7B23E76FD00041F2DC = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +99,8 @@
 				69E23F9D23E76FD30041F2DC /* SlateTests */,
 				69E23F8523E76FD10041F2DC /* Products */,
 				5D8009D923E86BB300F1D352 /* slate copy-Info.plist */,
+				95C6B0B7A6C28F7DF932D0FF /* Pods */,
+				2C8C76D5861CAF65547D49A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +132,7 @@
 				69E23FB323E770590041F2DC /* TestData.swift */,
 				69E23FB523E7706B0041F2DC /* Extensions.swift */,
 				69E23FB723E78F580041F2DC /* SlateProtocols.swift */,
+				5D9A2BB223EA79DE00EAE062 /* SlateNodeFactory.swift */,
 			);
 			path = Slate;
 			sourceTree = "<group>";
@@ -128,6 +146,16 @@
 			path = SlateTests;
 			sourceTree = "<group>";
 		};
+		95C6B0B7A6C28F7DF932D0FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5633027CA63936D7763366C6 /* Pods-Slate.debug.xcconfig */,
+				933B2C6AD538534DE0AFCE6A /* Pods-Slate.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69E23FA323E76FD30041F2DC /* Build configuration list for PBXNativeTarget "Slate" */;
 			buildPhases = (
+				53EF9E85AAD3EB0F72258B10 /* [CP] Check Pods Manifest.lock */,
 				69E23F8023E76FD00041F2DC /* Sources */,
 				69E23F8123E76FD00041F2DC /* Frameworks */,
 				69E23F8223E76FD00041F2DC /* Resources */,
+				25B74E2A637DC98C67E7A267 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +254,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25B74E2A637DC98C67E7A267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slate/Pods-Slate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slate/Pods-Slate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slate/Pods-Slate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53EF9E85AAD3EB0F72258B10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69E23F8023E76FD00041F2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -232,6 +304,7 @@
 				69E23FB423E770590041F2DC /* TestData.swift in Sources */,
 				69E23FB823E78F580041F2DC /* SlateProtocols.swift in Sources */,
 				69E23FBA23E793780041F2DC /* SlateEncoder.swift in Sources */,
+				5D9A2BB323EA79DE00EAE062 /* SlateNodeFactory.swift in Sources */,
 				69E23FAE23E7701D0041F2DC /* SlateElement.swift in Sources */,
 				69E23FB023E7702F0041F2DC /* SlateEditor.swift in Sources */,
 				69E23F8C23E76FD10041F2DC /* ViewController.swift in Sources */,
@@ -398,6 +471,7 @@
 		};
 		69E23FA423E76FD30041F2DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5633027CA63936D7763366C6 /* Pods-Slate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -415,6 +489,7 @@
 		};
 		69E23FA523E76FD30041F2DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933B2C6AD538534DE0AFCE6A /* Pods-Slate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

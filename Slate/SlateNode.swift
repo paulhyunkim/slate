@@ -203,18 +203,3 @@ extension SlateNode: Codable {
     }
     
 }
-
-
-public struct SlateNodeFactory {
-    
-    public static func paragraphNode(with nodes: [SlateNode]) -> SlateNode {
-        let paragraph = SlateParagraphElement(children: nodes)
-        return .paragraph(paragraph)
-    }
-    
-    public static func textNode(for text: String, styles: [SlateTextStyle]) -> SlateNode {
-        let text = SlateText(text: text, styles: styles)
-        return .text(text)
-    }
-    
-}

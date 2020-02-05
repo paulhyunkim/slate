@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyAttributes (5.1.1)
+
+DEPENDENCIES:
+  - SwiftyAttributes
+
+SPEC REPOS:
+  trunk:
+    - SwiftyAttributes
+
+SPEC CHECKSUMS:
+  SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
+
+PODFILE CHECKSUM: 1dcd0e9741004e05cbdf13f1f5d299158ca3bbb7
+
+COCOAPODS: 1.8.4
